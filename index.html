@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia EBAC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-tittle fw-bold fs-2">Academia EBAC</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-a-academia" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Academia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#unidades" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Unidades
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#atividades" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Atividades
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-academia">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class=" carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/slide1.jpeg" class="w-100" alt="Foto de pessoas correndo">
+                    </div>
+                    <div class=" carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide2.jpg" class="w-100" alt="Sala de musculação">
+                    </div>
+                    <div class=" carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/slide3.jpg" class="w-100" alt="Uma pessoa descansando">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-netx-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+                <div class="pt-5 pb-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="./images/academia.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno da academia">
+                            </div>
+                            <div class="col-md-7 mt-3 mt-md-0">
+                                <h2 class="section-tittle">Sobre <span class="text-colored">a Academia</span></h2>
+                                <p>
+                                    Academia na cidade de São Paulo com 3 unidades. A primeira unidade foi inaugurada em 2003, no bairro de Moema, com a união de 3 amigos professores de educação física. Ambiente animado, com diversas modalidades para você escolher qual combina mais com você.
+                                </p>
+                                <br>
+                                <h3 class="section-tittle">Sobre <span class="text-colored">o Espaço</span></h3>
+                                <p>
+                                    A academia conta com infraestrutura de alto desempenho, para diferentes tipos de treino. Será um prazer ter você com a gente!
+                                    
+                                    Temos diferentes espaços:
+                                <ul>
+                                    <li>Sala de musculação</li>
+                                    <li>Sala com aparelhos de aeróbico</li>
+                                    <li>3 salas de ginástica</li>
+                                    <li>Sala de bike</li>
+                                    <li>Vestiários feminino e masculino com chuveiro</li>
+                                    <li>Estacionamento</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="unidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center">Conheça nossas <span class="text-colored">unidades</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/unidades/fachada1.jpeg" alt="fachada da academia" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Moema
+                        </h3>
+                        <p>
+                            Inaugurada em 2003. <br>
+                            Rua java script, 238 -  Aberta 24 horas.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/unidades/fachada2.jpg" alt="fachada da academia" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4">
+                            <i class="bi bi-geo-alt"></i>
+                            Pinheiros
+                        </h3>
+                        <p>
+                            Inaugurada em 2010. <br>
+                            Rua CSS, 76 -  das 06h às 23 horas.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/unidades/fachada3.jpg" alt="fachada da academia" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-tittle text-colored fs-4">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Tatuapé
+                        </h3>
+                        <p>
+                            Inaugurada em 2021. <br>
+                            Rua HTML, 614 -  das 06h às 23 horas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="atividades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center mb-5">
+                        Nossas <span class="text-colored">Atividades</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-atividades">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#musculacao" class="fw-bold text-start nav-link text-colored active">Musculação</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aerobico" class="fw-bold text-start nav-link text-colored">Aeróbico</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#danca" class="fw-bold text-start nav-link text-colored">Dança</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#outros" class="fw-bold text-start nav-link text-colored">Outros</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="musculacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/musculação/pesos.jpg" alt="pesos" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Pesos livres</h5>
+                                        <p>
+                                            A sala de musculação conta com diversos pesos livres para exercícios.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/musculação/aparelhos.jpg" alt="aparelhos" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Aparelhos de musculação</h5>
+                                        <p>
+                                            A sala de musculação conta com diversos aparelhos para exercícios.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/musculação/esteiras.jpg" alt="esteiras" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Aparelhos de aeróbico </h5>
+                                        <p>
+                                            A  academia possui uma sala que conta com diversos aparelhos para aeróbico.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aerobico">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/aerobico/bike.jpg" alt="bike" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Bike</h5>
+                                        <p>
+                                            Aula onde a velocidade e movimentos na bike seguem o ritmo da música.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/aerobico/jump.jpg" alt="jump" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Jump</h5>
+                                        <p>
+                                            Aula com mini trampolim que tem a combinação entre músicas e movimentos.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/aerobico/funcional.jpg" alt="funcional" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Funcional</h5>
+                                        <p>
+                                            Aula com exercícios de aeróbico e força.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="danca">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/dança/zumba.jpg" alt="zumba" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Zumba</h5>
+                                        <p>
+                                            Zumba é um exercício físico aeróbico baseado em movimentos de danças latinas.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/dança/salao.jpg" alt="dança de salão" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Dança de salão</h5>
+                                        <p>
+                                            Diferentes tipos de música onde as danças são em casal. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/dança/fitdance.jpg" alt="aula de fitdance" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Fitdance</h5>
+                                        <p>
+                                            Aula com passos de dança onde as coreografias são montadas por especialistas para as músicas atuais.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="outros">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/outros/alongamento.jpg" alt="alongamento" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Alongamento</h5>
+                                        <p>
+                                            Aula com diferentes exercícios de alongamento.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/outros/pilates.jpg" alt="pilates" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Pilates</h5>
+                                        <p>
+                                            Aula que mescla exercícios de flexibilidade, força e equilíbrio.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/atividades/outros/yoga.jpg" alt="yoga" />
+                                        <h5 class="text-colored fw-bold mt-2 section-tittle">Yoga</h5>
+                                        <p>
+                                            Aula que harmoniza exercícios para o corpo, trabalhando a mente e a respiração.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-tittle text-center"> Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class=mb-3>
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class=mb-3>
+                                <label for="email" class="form-label fw-bold text-colored">Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class=mb-3>
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class=mb-3>
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-tittle fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço da Sede
+                            </h3>
+                            <p>
+                                Rua Exemplo nº 45, Bairro Bootstrap - São Paulo - SP 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

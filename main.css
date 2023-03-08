@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #1f7c87;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #1f7c87;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar-toggler {
+    background-color: #bde0f538;
+}
+
+.section-tittle {
+    font-family: 'Playfair Display', serif;
+}
+
+#sobre-a-academia, #atividades {
+    background-color: #bde0f538;
+}
+
+.text-colored {
+    color: #1f7c87; 
+}
+
+.nav-atividades .nav-link.active,
+#fale-conosco button {
+    background-color: #1f7c87;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:#1f7c87;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px
+    }
+
+    #unidades img {
+        padding-bottom: 8px;
+    }
+
+    #atividades img {
+        padding-top: 8px;
+    }
+}
